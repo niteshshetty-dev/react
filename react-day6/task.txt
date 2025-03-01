@@ -1,0 +1,19 @@
+Next Task:
+👉 Try implementing useEffect with dependencies.
+Example: Show a message every time a user enters a new name in an input field.
+
+Let me know once you’ve tried it! 🚀
+
+Great! Here's a challenge for you:
+
+Task 1: Multiple useEffect Hooks
+Create a component with two pieces of state: count and name.
+Use two separate useEffect hooks:
+One that runs when count changes.
+One that runs when name changes.
+Task 2: Skip First Render
+Create a component that has an input field for a text state.
+Use useRef to skip the effect on the first render, and log the text value only after it changes.
+Task 3: Re-fetch Data on State Change
+Create a component that fetches users' data from jsonplaceholder.typicode.com/users.
+Use an input field to search by user name, and fetch new data whenever the search query updates.

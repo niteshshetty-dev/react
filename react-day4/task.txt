@@ -1,0 +1,33 @@
+Task 1️⃣: Implement "Lifting State Up"
+🔹 Create a Parent (App.js) that manages a count.
+🔹 Pass the count to two children:
+
+IncrementButton → Increases count
+DecrementButton → Decreases count
+🔹 The count updates in both children & parent when changed.
+
+🚦 Steps to Follow:
+Create a new state variable for the step value.
+Add an input field to update the step value dynamically.
+Modify the onClick handlers of buttons to use the step value instead of +1 or -1.
+
+🔹 Next Task:
+Add a Reset Button
+
+A button that resets the count to zero and the stepValue to 1 when clicked.
+Disable Increment & Decrement When Count is Zero & Step is Negative
+
+Prevent the user from decrementing below zero.
+If stepValue is negative, disable the increment button (to prevent increasing in the wrong direction).
+
+Task:
+✅ Disable the Increment Button when stepValue is Negative.
+✅ Show a Warning Message when stepValue is Negative.
+
+📌 Enhance Reset Button Functionality
+
+When the Reset Button is clicked, reset:
+count to 0 (already done ✅).
+stepValue to an empty string "" (new 🆕).
+action to 1 (new 🆕).
+This ensures everything resets properly. Try implementing this now! 🚀
