@@ -1,0 +1,18 @@
+1️⃣ Write a functional component that takes a name as a prop and displays "Hello, [name]!"
+2️⃣ Render that component inside an App component.
+
+📌 Your Next Task:
+1️⃣ Create a new component called Counter.js.
+2️⃣ Use useState to manage a count variable.
+3️⃣ Add a button to increment count when clicked.
+4️⃣ Render Counter component inside App.js.
+
+📌 Next Step: Event Handling & Conditional Rendering
+1️⃣ Add a reset button that sets count back to 0.
+2️⃣ Disable the decrement button when count is 0 (using conditional rendering).
+
+📌 Next Step: List Rendering & Conditional Rendering
+1️⃣ Create a new component called TodoList.js
+2️⃣ Use useState to manage an array of tasks
+3️⃣ Render tasks dynamically using .map()
+4️⃣ Show "No tasks yet" if the list is empty

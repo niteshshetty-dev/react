@@ -1,0 +1,8 @@
+1️⃣ Write a function using arrow syntax that multiplies two numbers.
+2️⃣ Use destructuring to extract name and age from an object.
+3️⃣ Create an array of numbers and:
+
+Use map to square them
+Use filter to keep even numbers
+Use reduce to find the sum
+4️⃣ Write an async function that simulates fetching user data after 2 seconds.
